@@ -139,14 +139,14 @@ button#cadastrar {
     font-size: 16px;
     margin: 0 5px;
 
-  }
+}
   
-  button#cadastrar:hover {
+button#cadastrar:hover {
     background-color: #1c2538;
     color: #cac82a;
-  }
+}
   
-  button#cancelar {
+button#cancelar {
     border-width: 1px;
     border: solid #213564 1px;
     border-radius: 8px;
@@ -157,9 +157,63 @@ button#cadastrar {
     font-size: 16px;
     margin: 0 10px;
 
-  }
+}
   
-  button#cancelar:hover {
+button#cancelar:hover {
     background-color: grey;
     color: #fff;
-  }
+}
+
+#titleList{
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+#titleList h1{
+    background-color: #fff;
+    margin: 0;
+}
+
+#listSchools{
+    background-color: rgb(255 255 255 / 70%);
+    border: solid;
+    border-radius: 10px;
+    padding: 10% 25%;
+    width: 49%;
+}
+
+#listSchools th{
+    padding: 10%;
+}
+
+table {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .0178571429em;
+    background-color: rgb(255 255 255 / 70%);
+    width: 100%;
+    border-collapse: collapse; /* Combina as bordas das células para uma aparência mais limpa */
+}
+
+.shadow{
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+  
+table th, td{
+    padding: 11px 11px;
+    text-align: left;
+    font-size: 18px;
+}
+
+table td{
+    font-size: 16px;
+
+}
+
+#trash{
+    margin-left: 7%;
+}

@@ -44,7 +44,7 @@ export default function(){
                         Cadastrar
                     </li>
                 </Link>
-                <Link href="/Cadastrar" className="routeSide">
+                <Link href="/Clientes" className="routeSide">
                     <Image
                         src='/icons/caixa-de-selecao.svg'
                         alt='home'
@@ -53,7 +53,7 @@ export default function(){
                         className="sideIcon"
                     />
                     <li >
-                    Conferir
+                    Clientes
                     </li>
                 </Link>
                 <Link href="/Cadastrar" className="routeSide">
