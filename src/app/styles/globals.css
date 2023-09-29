@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #1c2538;
+    color: aliceblue;
+    font-family: 'Manrope', sans-serif;
+    box-shadow: 0 0 20px 2px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+#logo-nav{
+    margin: 0 2%;
+}
+
+.container{
+    display: flex;
+}
+
+section{
+    width: 250px;
+    height: 100vh;
+    background-color: #212c46;
+}
+
+section ul{
+    margin: 0%;
+    padding: 15% 30%;
+    list-style: none;
+    font-size: 23px;
+}
+
+section a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li{
+    margin-bottom: 50px;
+}
+
+.images-side{
+    box-shadow: 0 0 4px 0px;
+    display: flex;
+    padding: 10% 13%;
+    justify-content: space-around;
+}
+
+#section-img :hover{
+    background-color: #203053;
+}
+
+#section-img{
+    display: flex;
+}
