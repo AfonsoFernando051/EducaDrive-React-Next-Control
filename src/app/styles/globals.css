@@ -28,36 +28,49 @@ nav{
 section{
     width: 250px;
     height: 100vh;
-    background-color: #212c46;
+    background-color: #213564;
 }
 
 section ul{
     margin: 0%;
-    padding: 15% 30%;
+    padding: 20%;
     list-style: none;
     font-size: 23px;
 }
 
-section a{
+.routeSide{
     color: aliceblue;
     text-decoration: none;
+    display: flex
 }
 
 li{
     margin-bottom: 50px;
 }
 
-.images-side{
+.sideIcon{
+    padding-right: 9px;
+}
+
+
+.image-section{
+    color: black;
     box-shadow: 0 0 4px 0px;
     display: flex;
-    padding: 10% 13%;
+    padding: 10% 12%;
     justify-content: space-around;
 }
 
 #section-img :hover{
-    background-color: #203053;
+    background-color: #cac82a;
 }
+
+.routeSide :hover{
+    color: #d6d30b;
+}
+
 
 #section-img{
     display: flex;
+    
 }
