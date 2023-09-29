@@ -59,6 +59,8 @@ li{
     display: flex;
     padding: 10% 12%;
     justify-content: space-around;
+    border-radius: 4px;
+
 }
 
 #section-img :hover{
@@ -73,4 +75,8 @@ li{
 #section-img{
     display: flex;
     
+}
+
+.SignUpForm{
+    padding: 10%;
 }
