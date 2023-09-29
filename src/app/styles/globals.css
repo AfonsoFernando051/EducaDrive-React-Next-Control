@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
 header{
     width: 100%;
     background-color: #1c2538;
@@ -26,7 +30,7 @@ nav{
 }
 
 section{
-    width: 250px;
+    width: 295px;
     height: 100vh;
     background-color: #213564;
 }
@@ -35,7 +39,7 @@ section ul{
     margin: 0%;
     padding: 20%;
     list-style: none;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 .routeSide{
@@ -74,9 +78,88 @@ li{
 
 #section-img{
     display: flex;
-    
+}
+
+main{
+    background-image: url('../../../public/car.jpg');
+    width: 100%;
+    height: 100vh;
+
+}
+
+#titleForm{
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#titleForm h1{
+    margin: 0;
 }
 
 .SignUpForm{
-    padding: 10%;
+    background-color: rgb(255 255 255 / 70%);
+    border: solid;
+    border-radius: 10px;
+    padding: 10% 2%;
+    margin: 5% 15%;
+    width: 50%;
 }
+
+.SignUpForm h2{
+    margin-top: 0;
+    color: #0a0a09;
+    font-size: 30px;
+}
+
+.inputForm{
+    width: fit-content;
+    margin: 5px;
+    width: 90%;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: 20px;
+    height: 30px;
+}
+
+#buttonForm{
+    margin: 1% 0%;
+}
+
+button#cadastrar {
+    color: #fff;
+    background-color: #213564;
+    padding: 18px 38px;
+    border: 8px;
+    border-radius: 8px;
+    width: 161px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 5px;
+
+  }
+  
+  button#cadastrar:hover {
+    background-color: #1c2538;
+    color: #cac82a;
+  }
+  
+  button#cancelar {
+    border-width: 1px;
+    border: solid #213564 1px;
+    border-radius: 8px;
+    padding: 18px 38px;
+    width: 161px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 10px;
+
+  }
+  
+  button#cancelar:hover {
+    background-color: grey;
+    color: #fff;
+  }
