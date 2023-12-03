@@ -26,7 +26,6 @@ const Cadastrar = function(){
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-        console.log(formData);
         try{   
             const response = await fetch('http://localhost:3001/sign-up',{
                 method: 'POST',
